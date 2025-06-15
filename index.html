@@ -40,8 +40,7 @@
     <br>
     <p>Last Modified: </p> <p id="refresh"></p>
     <script>
-      const time = new Date();
-      document.getElementById("refresh").innerHTML = time;
+      document.getElementById("refresh").textContent = document.lastModified;
     </script>
   </body>
 
